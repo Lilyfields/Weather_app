@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,89 @@
     <link rel="stylesheet" href="./style.css">
     <title>Weather Dashboard</title>
 </head>
+
 <body>
 
     <h1>The weather forcast</h1>
 
     <div class="container">
         <div class="current-info">
-            <div class="time" id="time">
-                12:30 <span id="am-pm">AM</span>
-            </div>
+        
+        <div class="date-container">
         </div>
+                
+        <div class="place-container">
+        <div class="time-zone" id="time-zone">Eastern Standard Time</div>
+        <div class="country" id="country">Australia</div>
+        </div>
+                
+        <div class="time" id="time">12:30 <span id="am-pm">AM</span>
+        <div class="date" id="date"> Friday,29 April</div>
+
+        <div class="others" id="current-weather-items">
+        <div class="weather-items">
+        <div>Humidity</div>
+        <div>95.2%</div>
+        </div>
+        <div class="weather-items">
+        <div>Pressure</div>
+        <div>95.2%</div>
+        </div>
+        <div class="weather-items">
+        <div>Wind Speed</div>
+         <div>95.2%</div>
+        </div>
+         </div>
+        </div>
+        </div>
+</div>
+
+    <div class="future-forcast">
+        <div class="today" id="current-temp">
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+
+        <div class="weather-forcast" id="weather-forcast">
+        <div class="weather-forcast-item">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+
+        </div>
+        <div class="weather-forcast-item">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+        <div class="weather-forcast-item">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+        <div class="weather-forcast-item">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+        <div class="weather-forcast-item">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w.icon">
+            <div class="day">Friday</div>
+            <div class="temp">Night- 25.6&#176; C</div>
+            <div class="temp">Day- 25.6&#176; C</div>
+        </div>
+        
     </div>
-
-
-
-
-
 
 
     <script src="./index.js"></script>
 </body>
+
 </html>
