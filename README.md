@@ -30,6 +30,47 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
-## Work in Progress
+## My Final Outcome
 
-<image src="https://image.shutterstock.com/z/stock-photo-hand-putting-wooden-cube-on-virtual-infographic-rectangle-block-with-progress-wording-job-1735505120.jpg" width= 1000  height=1000>
+The following link demonstrates the application functionality:
+
+
+
+
+## Images for Weather Dashboard
+
+
+
+
+
+## Key Features
+
+* HTML
+* CSS
+* JS
+* JQuery and Third Party API
+  
+* Responsive.
+* Interactive (i.e., accept and respond to user input).
+  
+
+## Application Quality
+
+* Application experience is intuitive and easy to navigate.
+
+* Application user interface style is clean and polished.
+
+* Application resembles the mock-up functionality provided in the homework instructions.
+  
+
+
+## Future Development
+
+- Upcoming project: Group Project -Banana Finder
+
+- Using jQuery libary and third party API
+  
+---
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
